@@ -28,7 +28,7 @@
     border-radius: 5px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #f97316;
+    background: #D9A619;
   }
 }
 @layer utilities {
