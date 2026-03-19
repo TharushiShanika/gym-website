@@ -5,7 +5,7 @@ A modern and responsive promotional website for a gym, built with React and Vite
 🔧 Tech Stack
 Frontend: React, TypeScript, Vite
 
-Styling: CSS / Tailwind CSS (if used)
+Styling: CSS / Tailwind CSS 
 
 Deployment: GitHub Pages
 
