@@ -12,9 +12,9 @@ Deployment: GitHub Pages
 ⚙️ Setup Instructions
 Clone the repository:
 bash git clone https://github.com/TharushiShanika/gym-website.git 
-cd gym-website# 
+cd gym-website
 
-Getting Started:
+#Getting Started:
 Run npm install
 Run npm run dev
 
