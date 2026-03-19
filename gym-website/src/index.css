@@ -1,25 +1,41 @@
-/* index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --brand-gold: #D4AF37;
-  --brand-dark: #111111;
-  --brand-gray: #1f1f1f;
-  --brand-light: #f4f4f4;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #0a0a0a;
+    color: #ffffff;
+  }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Custom scrollbar for a premium feel */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f97316;
+  }
 }
-
-html {
-  scroll-behavior: smooth;
-}
-
-/* Force sections to have a minimum height and remove accidental gaps */
-section {
-  @apply min-h-[60vh] flex flex-col justify-center overflow-hidden;
-}
-
-/* Ensure images don't break the layout */
-img {
-  @apply object-cover w-full h-full max-h-[500px];
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
 }
