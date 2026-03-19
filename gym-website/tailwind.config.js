@@ -1,11 +1,15 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+// tailwind.config.js
+module.exports = {
   theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+    extend: {
+      colors: {
+        brand: {
+          gold: '#D4AF37', // The gold from your palette
+          dark: '#111111', // Deep black/brown
+          gray: '#222222', // Secondary dark
+          light: '#F5F5F5', // Off-white
+        }
+      }
+    }
+  }
+}
