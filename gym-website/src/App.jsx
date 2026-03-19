@@ -1,21 +1,14 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-
 function App() {
   return (
-    <>
+    <main className="bg-brand-dark font-sans text-white">
       <Navbar />
       <Hero />
-      <About />
+      <div className="bg-brand-light text-brand-dark">
+        <About />
+      </div>
       <Services />
       <Contact />
       <Footer />
-    </>
+    </main>
   );
 }
-
-export default App;
