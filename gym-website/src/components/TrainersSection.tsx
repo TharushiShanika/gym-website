@@ -1,4 +1,8 @@
 import React from 'react';
+import trainer1 from '../Assets/image1.jpg';
+import trainer2 from '../Assets/image2.jpg';
+import trainer3 from '../Assets/image3.jpg';
+import trainer4 from '../Assets/image4.jpg';
 import { motion } from 'framer-motion';
 export function TrainersSection() {
   const trainers = [
@@ -7,29 +11,25 @@ export function TrainersSection() {
     specialty: 'Head Strength Coach',
     bio: 'Former powerlifting champion specializing in raw strength and biomechanics.',
     image:
-    'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80'
-  },
+    trainer1  },
   {
     name: 'Sarah Jenkins',
     specialty: 'HIIT & Conditioning',
     bio: 'High-energy coach who will push your cardiovascular limits to the absolute max.',
     image:
-    'https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80'
-  },
+trainer2  },
   {
     name: 'David Chen',
     specialty: 'Mobility & Recovery',
     bio: 'Expert in functional movement, injury prevention, and athletic longevity.',
     image:
-    'https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=800&q=80'
-  },
+trainer3  },
   {
     name: 'Elena Rostova',
     specialty: 'Bodybuilding & Prep',
     bio: 'IFBB Pro helping clients achieve peak aesthetic conditioning and stage readiness.',
     image:
-    'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&q=80'
-  }];
+trainer4  }];
 
   return (
     <section id="trainers" className="py-20 md:py-32 bg-neutral-900">
