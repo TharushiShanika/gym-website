@@ -137,7 +137,7 @@ export function Footer() {
 
         <div className="border-t border-neutral-900 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-neutral-500 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Forge Fitness. All rights
+            &copy; {new Date().getFullYear()} Fitness Sport Centre. All rights
             reserved.
           </p>
           <p className="text-neutral-500 text-sm">Designed for strength.</p>
