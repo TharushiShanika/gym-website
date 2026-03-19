@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Smooth scroll */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
 }
