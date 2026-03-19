@@ -1,15 +1,14 @@
-// tailwind.config.js
-module.exports = {
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        brand: {
-          gold: '#D4AF37', // The gold from your palette
-          dark: '#111111', // Deep black/brown
-          gray: '#222222', // Secondary dark
-          light: '#F5F5F5', // Off-white
-        }
-      }
-    }
-  }
-}
+        gold: "#D9A619",
+        bronze: "#261E11",
+        charcoal: "#2D2E2E",
+        offwhite: "#F2F1ED",
+      },
+    },
+  },
+  plugins: [],
+};
