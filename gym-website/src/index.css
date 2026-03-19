@@ -1,11 +1,25 @@
+/* index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --brand-gold: #D4AF37;
+  --brand-dark: #111111;
+  --brand-gray: #1f1f1f;
+  --brand-light: #f4f4f4;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
+/* Force sections to have a minimum height and remove accidental gaps */
+section {
+  @apply min-h-[60vh] flex flex-col justify-center overflow-hidden;
+}
+
+/* Ensure images don't break the layout */
+img {
+  @apply object-cover w-full h-full max-h-[500px];
 }
